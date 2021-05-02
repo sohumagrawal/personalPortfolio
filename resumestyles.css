@@ -1,0 +1,92 @@
+/* Variables */
+:root {
+    --title-row-height: 60px;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+
+/* Navigation Section CSS */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+nav {
+    display: inline-flex;
+    margin: auto;
+}
+
+nav h2 {
+    margin: auto 1rem;
+    font-size: 1em;
+    position: relative;
+}
+
+#active-nav {
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+/* General Section CSS */
+section {
+    display: grid;
+    grid-template-rows: var(--title-row-height) 1fr;
+}
+
+section h2 {
+    justify-self: center;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: bullet;
+}
+
+li {
+    list-style: circle;
+}
+
+/* Education Section CSS */
+#education-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15% 85%;
+    justify-content: space-between;
+}
+
+.details {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.location {
+    justify-self: end;
+}
+
+/* Projects Section CSS */
+#projects {
+    color: black;
+}
+
+/* Skills Section CSS */
+#skills {
+    grid-template-columns: 1fr 1fr;
+}
+
+#skills-title {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+
+
+

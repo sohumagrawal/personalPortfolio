@@ -1,0 +1,50 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: space-between;
+}
+
+
+nav {
+    display: inline-flex;
+    margin: auto;
+}
+
+nav h2 {
+    margin: auto 1rem;
+    font-size: 1em;
+    position: relative;
+
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+ul {
+    list-style-type: bullet;
+}
+
+#skills {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#skills-title {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
